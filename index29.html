@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos para formularios</title>
+</head>
+<!-- 
+    Fieldset = Nos permite agrupar
+    legend = Se usa para agregar contenido dentro del fieldset
+    file = Es un atributo, Nos permite enviar archivos
+    meter = Es un valor dentro de un rango
+    progress = Progreso de una tarea
+    textarea = Se utiliza para agregar descripciones dentro de un formulario
+ -->
+<body>
+    <form>
+        <fieldset>
+          <legend>Ingreso de Datos</legend>
+          <label for="name">Nombre</label>
+          <input type="text" id="name">
+          <label for="surname">Apellidos</label>
+          <input type="text" id="surname">
+        </fieldset>
+
+        <input type="file">
+
+        <label for="tarea">Tarea</label>
+        <meter id="tarea" min="0" max="100" value="45" low="30" high="75" optimum="50"> 
+        </meter>
+
+    </form>
+</body>
+</html>
